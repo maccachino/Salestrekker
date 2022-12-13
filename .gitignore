@@ -1,0 +1,14 @@
+.DS_*
+*.pem
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+
+#production
+build
+
+#VSCode
+.vscode

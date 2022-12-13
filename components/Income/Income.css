@@ -1,0 +1,76 @@
+.IncomeHeader {
+  display: flex;
+  align-items: center;
+}
+.IncomeHeader svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+h3 {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.AmountWrapper {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.Amount {
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #1a56db;
+  color: #fff;
+}
+
+span {
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}
+
+.dropdown {
+  padding-bottom: 0.5rem;
+}
+
+.dropdown button {
+  border: none !important;
+  background-color: transparent !important;
+  color: #1a56db !important;
+}
+.dropdown button:hover {
+  border: none !important;
+  background-color: transparent !important;
+  color: #1a56db !important;
+}
+
+.TableWrapper {
+  background-color: #1a56db;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #fff;
+}
+tbody tr:last-child {
+  border: none !important;
+}
+
+th,
+td {
+  padding: 0.5rem;
+}

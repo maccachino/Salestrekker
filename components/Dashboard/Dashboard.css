@@ -1,0 +1,8 @@
+.container {
+  min-height: 26.875rem;
+}
+
+.nav-link.active {
+  color: #fff !important;
+  background-color: #1a56db !important;
+}

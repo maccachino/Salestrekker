@@ -2,7 +2,7 @@ import React from "react";
 
 // styles
 import "./IncomeDetails.css";
-import '../Income/Income'
+import "../Income/Income";
 
 // bootstrap
 import Form from "react-bootstrap/Form";
@@ -15,7 +15,8 @@ import { BiDollar } from "react-icons/bi";
 
 const IncomeDetails = (props) => {
   // props
-  const {grossIncome, setGrossIncome, setKey} = props;
+  // eslint-disable-next-line react/prop-types
+  const { grossIncome, setGrossIncome, setKey } = props;
 
   // functions
   const handleChange = (e) => {
@@ -23,8 +24,8 @@ const IncomeDetails = (props) => {
   };
 
   const calculate = () => {
-    setKey('Income');
-  }
+    setKey("Income");
+  };
 
   return (
     <div className="IncomeDetailsWrapper">
@@ -51,7 +52,12 @@ const IncomeDetails = (props) => {
         </InputGroup>
       </div>
       <div className="ButtonsWrapper">
-        <button onClick={() => calculate()} className={`rounded shadow-sm ${grossIncome === '' ? "CalculateButton" : "CalculateButtonSuccess" }`}>
+        <button
+          onClick={() => calculate()}
+          className={`rounded shadow-sm ${
+            grossIncome === "" ? "CalculateButton" : "CalculateButtonSuccess"
+          }`}
+        >
           Calculate
           <BsArrowRight />
         </button>

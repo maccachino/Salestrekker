@@ -7,8 +7,5 @@ logs
 
 node_modules
 
-#production
-build
-
 #VSCode
 .vscode

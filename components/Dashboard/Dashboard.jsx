@@ -13,8 +13,8 @@ import Tabs from "react-bootstrap/Tabs";
 
 const Dashboard = () => {
   // states
-  const [grossIncome, setGrossIncome] = useState('');
-  const [key, setKey] = useState('IncomeDetails');
+  const [grossIncome, setGrossIncome] = useState("");
+  const [key, setKey] = useState("IncomeDetails");
 
   return (
     <div className="container py-3 w-1/2 shadow rounded">
@@ -32,9 +32,7 @@ const Dashboard = () => {
           />
         </Tab>
         <Tab eventKey="Income" title="Income">
-          <Income 
-            grossIncome={grossIncome} 
-          />
+          <Income grossIncome={grossIncome} />
         </Tab>
       </Tabs>
     </div>
